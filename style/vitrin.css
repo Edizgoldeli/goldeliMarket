@@ -1,0 +1,331 @@
+.gapTop {
+  width: 250px;
+  height: 30px;
+}
+
+.logo {
+  width: 200px;
+  height: 56.1px;
+  -webkit-appearance: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.box1 {
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.searchBar {
+  transition: 1s;
+  width: 191px;
+  height: 45px;
+  margin-top: -25px;
+  margin-left: 10px;
+  border: none;
+  background: #F5F5FA;
+  box-shadow: 0px 5px 20px rgba(170, 170, 204, 0.5);
+  border-radius: 15px;
+  justify-content: center;
+  display: flex;
+  margin-bottom: -38px;
+  -webkit-appearance: none;
+
+  font-size: 18px;
+  align-items: center;
+  font-family: 'Quicksand';
+  font-style: normal;
+  align-items: center;
+  text-align: center;
+}
+
+.searchButton {
+  transition: 1s;
+  width: 30px;
+  height: 30px;
+  margin-left: 165px;
+  -webkit-appearance: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: none;
+  pointer-events: all;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: -30px;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 38px;
+  height: 2px;
+  background-color: #333;
+  margin: 12px 0;
+}
+
+.change .bar1 {
+  transition: 0.4s;
+  margin-left: 0px;
+  -webkit-transform: rotate(-45deg) translate(-10px, 12px);
+  transform: rotate(-45deg) translate(-10px, 12px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transition: 0.4s;
+  margin-left: 0px;
+  -webkit-transform: rotate(45deg) translate(-7px, -10px);
+  transform: rotate(45deg) translate(-7px, -10px);
+}
+
+.change .searchBar {
+  transition: 1s;
+  margin-left: 100px;
+  pointer-events: none;
+}
+
+.change .searchButton {
+  transition: 1s;
+  margin-left: 250px;
+}
+
+.menuContent {
+  height: 550px;
+  background-color: white;
+  padding-left: 100px;
+  margin-left: -50px;
+  opacity: 0;
+  transition: 1s;
+  pointer-events: none;
+  width: 250px;
+  margin-top: 30px;
+
+}
+
+.show .menuContent {
+  z-index: 1;
+  overflow: hidden;
+  display: block;
+  background-color: white;
+  margin-left: -50px;
+  opacity: 90;
+  transition: 2s;
+  -webkit-appearance: none;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  pointer-events: all;
+  display: inline-block;
+
+}
+
+.menuContent a {
+  text-decoration: none;
+  font-family: 'Quicksand';
+  font-style: normal;
+  color: black;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.center {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  
+}
+
+.overlay .box1 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.box2 {
+  width: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.feed1 {
+  width: 250px;
+  margin-top: 20px;
+  background: #F5F5FA;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), -5px -10px 20px #FFFFFF;
+  border-radius: 20px;
+}
+
+.feed2 {
+  width: 250px;
+  height: 287.5;
+  background: #E2E2E4;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.fitting-image {
+  height: 287.5;
+  max-width: 250px;
+}
+
+.feedComment {
+  width: 232px;
+  height: 36px;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.more {
+  width: 89px;
+  height: 25px;
+  background-image: url("http://ediz.goldeli.com/GraduationProject/images/more.png");
+  float: right;
+  z-index: -1;
+margin-right: 10px;
+}
+
+.social {
+  float: left;
+  border: none;
+  width: 120px;
+  height: 42px;
+  pointer-events: all;
+  margin-left: 20px;
+  z-index: 1;
+}
+
+.edit {
+  float: left;
+  border: none;
+  width: 80px;
+  height: 42px;
+  background: #d8f083;
+  box-shadow: 5px 5px 10px rgba(170, 170, 204, 0.25);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  z-index: 1;
+  pointer-events: all;
+}
+
+.delete {
+  float: left;
+  margin-left: 10px;
+  border: none;
+  width: 80px;
+  height: 42px;
+  background: #ffcd90;
+  box-shadow: 5px 5px 10px rgba(170, 170, 204, 0.25);
+  border-radius: 15px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  z-index: 1;
+  pointer-events: all;
+}
+
+.IDinfo {
+  float: right;
+  margin-right: 5px;
+  margin-bottom: -40px;
+  -webkit-appearance: none;
+  font-family: 'QuickSand';
+  font-style: normal;
+   font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+}
+.floor{
+  padding-top: 100px;
+bottom: 0;
+margin:auto;
+}
+h1 {
+  margin-top: 25px;
+  font-family: 'QuickSand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #000000;
+}
+h2 {
+  margin-top: -50px;
+  padding: 20px;
+  font-family: 'QuickSand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #000000;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
