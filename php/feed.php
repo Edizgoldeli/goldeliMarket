@@ -47,8 +47,8 @@ if ($result->num_rows > 0) {
                     </div>
                     <br>
                     <div class="social">
-                        <a href="tel:+905333319928" title="Call / Ara" rel="nofollow"><img src="https://market.goldeli.com/images/website/phone.png" alt="Phone icon" width="35px" height="35px"></a>
-                        <a href="https://wa.me/905333319928/?text=<?php echo $comment." [ID: ".$prdct_ID."]"; ?>" title="Whatsapp ile Mesaj At" rel="nofollow"><img src="https://market.goldeli.com/images/website/whatsApp.png" alt="WP icon"width="62.222222223px" height="35px"></a>
+                        <a href="tel:+" title="Call / Ara" rel="nofollow"><img src="https://market.goldeli.com/images/website/phone.png" alt="Phone icon" width="35px" height="35px"></a>
+                        <a href="https://wa.me//?text=<?php echo $comment." [ID: ".$prdct_ID."]"; ?>" title="Whatsapp ile Mesaj At" rel="nofollow"><img src="https://market.goldeli.com/images/website/whatsApp.png" alt="WP icon"width="62.222222223px" height="35px"></a>
                     </div>
                     <div class="IDinfo">
                     <br>
