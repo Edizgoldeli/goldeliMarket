@@ -9,7 +9,7 @@ $type = $_POST['type'];
 $comment = $_POST['comment'];
 
 
-$targetfolder = "/home/hepsilaz/market.goldeli.com/images/products/";
+$targetfolder = "*targetFile*";
 
 $newfilename = rand(1,999999) . '.' . end(explode(".",$_FILES["file"]["name"]));
 $targetfolder = $targetfolder . $newfilename ;
